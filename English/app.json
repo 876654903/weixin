@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/contract/contract",
+    "pages/index/index",
+    "pages/home/home",
+    "pages/login/login",
+    "pages/applyContract/applyContract"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#349BFF",
+    "navigationBarTitleText": "登录页",
+    "backgroundColor": "#349BFF"
+  },
+  "tabBar": {
+    "backgroundColor": "#349BFF",
+    "color": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/contract/contract",
+        "text": "合同",
+        "iconPath": "img/3.jpg",
+        "selectedIconPath": "img/2.jpg"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "服务中心",
+        "iconPath": "img/3.jpg",
+        "selectedIconPath": "img/2.jpg"
+      },
+      {
+        "pagePath": "pages/applyContract/applyContract",
+        "text": "申请发票",
+        "iconPath": "img/1.jpg",
+        "selectedIconPath": "img/2.jpg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/1.jpg",
+        "selectedIconPath": "img/2.jpg"
+      }
+    ]
+  }
+}

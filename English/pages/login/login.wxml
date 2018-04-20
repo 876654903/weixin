@@ -1,0 +1,21 @@
+<view class='login'>
+  <view class='login-box' >
+    <image class='logo' src="/img/logo.png"></image>
+    <view class="itemView">
+      <icon class='iconfont shouji'></icon>
+      <input class="input" name="userName" placeholder="请输入手机号" bindinput="userNameInput" />
+    </view>
+    <view class="itemView">
+      <icon class='iconfont anquan'></icon>
+      <input class="input auth-code" password placeholder="请输入验证码" bindinput="passWdInput" name="password"/>
+      <view class='get-auth-code'>获取验证码</view>
+    </view>
+    <view class='loginNow'>
+      <button class="loginTo" bindtap="toHome">立即登录</button>
+      <view class="design-title">
+        点击登录即代表已同意
+        <view>《励步服务中心协议》</view>
+      </view>
+    </view>
+  </view>
+</view>

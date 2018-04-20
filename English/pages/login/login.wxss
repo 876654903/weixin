@@ -1,0 +1,96 @@
+/* pages/login/login.wxss */
+
+page {
+  background-image: linear-gradient(-40deg, #64cbff 4%, #349bff 83%);
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 84rpx;
+}
+
+.login-box {
+  margin: 0 auto;
+  width: 690rpx;
+  height: 740rpx;
+  background: #fff;
+  box-shadow: 0rpx 20rpx 4zpx rgba(17, 161, 255, 0.50);
+  border-radius: 20rpx;
+  text-align: center;
+}
+
+.logo {
+  width: 322rpx;
+  height: 114rpx;
+  margin: 76rpx 0 66rpx 0;
+}
+
+.itemView {
+  margin: 0 auto 40rpx;
+  width: 558rpx;
+  height: 64rpx;
+  display: flex;
+  align-items: center;
+  border: 1rpx solid #e1e1e1;
+  border-radius: 100rpx;
+}
+
+.itemView icon {
+  padding: 0 24rpx 0 40rpx;
+}
+
+.itemView .input {
+  text-align: left;
+  font-size: 28rpx;
+}
+
+.itemView .input-placeholder {
+  font-size: 28rpx;
+  color: #c2c2c2;
+  letter-spacing: -0.3rpx;
+}
+
+ .itemView .input.auth-code {
+  width: 260rpx;
+} 
+
+.itemView .get-auth-code {
+  width: 138rpx;
+  margin-right: 40rpx;
+  border: none;
+  outline: none;
+  font-size: 28rpx;
+  color: #349bff;
+  letter-spacing: -0.3rpx;
+  text-align: center;
+}
+
+.loginNow {
+  margin: 88rpx 0 20rpx 0;
+}
+
+.loginTo {
+  background: #349bff;
+  border-radius: 100rpx;
+  width: 458rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  font-size: 28rpx;
+  color: #fff;
+  letter-spacing: -0.34rpx;
+}
+
+.design-title {
+  margin-top:10rpx;
+  text-align: center;
+  width:100%;
+  font-size: 28rpx;
+  color: #c2c2c2;
+  letter-spacing: -0.34rpx;
+}
+
+.design-title>view {
+  display:inline-block;
+  font-size: 28rpx;
+  color: #349BFF ;
+  letter-spacing: -0.34rpx;
+  line-height: 40rpx;
+}

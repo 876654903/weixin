@@ -1,0 +1,23 @@
+<!-- 合同 -->
+<view class="contract">
+  <image src="../../img/bg.jpg" class='bg'></image>
+  <view class='contract-box'>
+    <view wx:for="{{datalist}}" wx:key="item.id" class="{{item.id == isActive?'contract-box-list change-color' : 'contract-box-list'}}" bindtap='changeColor' data-id="{{item.id}}">
+      <view class='contract-title'>
+        <icon class='{{item.icon}}'></icon>
+        合同编号:{{item.title}}
+      </view>
+      <view class='contract-list'>
+        <view class='row' >
+          <view class='contract-classify'>教学中心</view>{{item.teachCenter}}</view>
+        <view class='row'>
+          <view class='contract-classify'>实付金额</view>{{item.price}}</view>
+        <view class='row'>
+          <view class='contract-classify'>签订日期</view>{{item.date}}</view>
+          <button class='submit' disabled='{{item.isClick}}' bindtap=''>{{item.btnTitle}}</button>
+      </view>
+
+    </view>
+  </view>
+
+</view>
