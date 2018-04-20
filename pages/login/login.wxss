@@ -1,0 +1,114 @@
+/* pages/login/login.wxss */
+@import "/font/iconfont.wxss";
+page{
+  width:100%;
+  height: 100%;
+  background-image: linear-gradient(-40deg, #64CBFF 4%, #349BFF 83%);
+  overflow: hidden;
+ 
+}
+
+.login-box{
+  margin: 42px auto;  
+  background: #fff;
+  width:690rpx;
+  height:740rpx; 
+  border-radius: 20rpx;
+
+}
+
+image{
+  width:322rpx;height:142rpx;
+  margin-left:184rpx;
+  margin-top:76rpx;
+}
+
+.form-box{
+  width:100%;
+  margin-top:66rpx;
+}
+.inp{
+  border: 1px solid #E1E1E1;
+  border-radius: 100px;
+  width:558rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  display: flex;
+  align-items: center;
+  margin:0 auto;
+ 
+ 
+}
+.inp-placeholder{
+  font-family: PingFangSC-Light;
+  font-size: 28rpx;
+  color: #C2C2C2;
+  letter-spacing:-0.6rpx;
+}
+
+.inp{
+  margin-top:40rpx;
+  position: relative;
+
+}
+.inp icon{
+  padding-left:40rpx;
+}
+.inp input{
+  padding-left:24rpx;
+  height: 64rpx;
+  font-size: 28rpx;
+ 
+  flex:1;
+}
+
+
+.inp text{
+  font-family: PingFangSC-Medium;
+  font-size:28rpx;
+  color: #349BFF;
+  letter-spacing: -0.6rpx;
+  text-align: center;
+  margin-right:30rpx;
+ 
+  
+}
+
+.tip{
+  font-family: PingFangSC-Light;
+  font-size: 28rpx;
+  color: #FE6464;
+  letter-spacing: -0.34px;
+  text-align: center;
+  margin-top:16rpx;
+   width:260rpx;
+}
+.tel-tip{
+  position: absolute;
+  left:50%;
+  bottom:-50rpx;
+  transform:translateX(-130rpx); 
+}
+button{
+  background: #349BFF;
+  border-radius: 100px;
+  color:#fff;
+  margin-top:98rpx;
+  width:558rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  font-size: 28rpx;
+}
+
+.default-yes{
+  font-family: PingFangSC-Light;
+  font-size: 28rpx;
+  color: #C2C2C2;
+  letter-spacing: -0.34rpx;
+  text-align: center;
+  padding-top:20rpx;
+}
+.xieyi{
+  color: blue;
+}
+

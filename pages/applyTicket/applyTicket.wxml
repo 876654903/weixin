@@ -1,0 +1,94 @@
+<view>
+  <view class="common-box first">
+
+    <view>
+      <text class='common-text common-first'>发票金额</text>
+      <text class='common-text common-second'>优惠券支付部分不可开发票</text>
+    </view>
+    <view style="text-align:right">
+      <text style="font-size: 40rpx;color: #FE6464;">￥584558.00</text>
+      <text style="font-size: 24rpx;color: #FE6464;">以实付金额为准</text>
+    </view>
+  </view>
+  <view class="common-box">
+    <view>
+      <view>
+        <text class='common-text common-first'>抬头类型</text>
+        <text style="margin-left:40rpx">个人</text>
+      </view>
+      <text class='common-text common-second'>其他发票需求请联系小区前台</text>
+      <view class="common-text common-third">
+        <text>发票抬头</text>
+        <input placeholder='张静涵'></input>
+      </view>
+    </view>
+
+  </view>
+  <view class="common-box">
+    <view>
+      <view>
+        <text class='common-text common-first'>开票方式</text>
+      </view>
+      <text class='common-text common-second'>申请后，发票将自动发送到您的微信</text>
+      <view class="common-text common-third">
+        <text>邮箱</text>
+        <input placeholder='可不填，填写后可发送至您的邮箱'></input>
+      </view>
+    </view>
+
+  </view>
+
+  <view>
+    <button hover-class='none' bindtap="showDialogBtn">提交</button>
+  </view>
+
+
+  <!--弹窗-->
+
+  <view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+
+  <view class="modal-dialog" wx:if="{{showModal}}">
+
+
+
+    <view class="modal-content">
+      <view>
+        <text>发票金额</text>
+        <text>￥27546.00</text>
+      </view>
+      <view>
+        <text>抬头类型</text>
+        <text>个人</text>
+      </view>
+      <view>
+        <text>发票抬头</text>
+        <text>张静涵</text>
+      </view>
+      <view>
+        <text>项目</text>
+        <text>培训费</text>
+      </view>
+      <view>
+        <text>邮箱</text>
+        <text>258369@qq.con</text>
+      </view>
+
+
+    </view>
+
+    <view class="modal-footer">
+
+      <view class="btn-cancel" bindtap="onCancel" data-status="cancel">取消</view>
+
+      <view class="btn-confirm" bindtap="onConfirm" data-status="confirm">确认开票</view>
+
+    </view>
+
+  </view>
+
+
+
+
+
+
+</view>

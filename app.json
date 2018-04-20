@@ -1,0 +1,17 @@
+{
+  "pages": [
+      
+    "pages/applyTicket/applyTicket",
+    "pages/checkBill/checkBill",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/ticketSuccess/ticketSuccess",
+    "pages/ticketFail/ticketFail"
+   
+  ],
+  "window": {
+    "navigationBarTitleText": "Demo",
+    "navigationBarBackgroundColor": "349BFF"
+  }
+ 
+}

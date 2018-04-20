@@ -1,0 +1,102 @@
+/* pages/checkBill/checkBill.wxss */
+@import "/font/iconfont.wxss";
+page{
+  width:100%;height: 100%;
+  background: #F9F8FE;
+  position:relative;
+ 
+}
+.bg-img{
+  height: 377rpx;
+}
+.bg-mark{
+  width: 690rpx;height: 492rpx;
+  background: #fff;
+  position: absolute;
+  top:24rpx;
+  left:30rpx;
+  z-index:99;
+  background: #FFFFFF;
+  box-shadow: 0 8px 10px 2px rgba(188,209,233,0.50);
+  border-radius: 4px;
+}
+
+.check-bill-Title{
+  height:132rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-bill-Title text{
+  height: 50rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  color: #2A2140;
+  letter-spacing: -0.86px;
+  font-weight: bold;
+  margin-left:10rpx;
+}  
+
+
+.check-bill-Title icon{
+  margin-top:-20rpx;
+}
+
+.common{
+  padding-left:62rpx;
+  box-sizing: border-box;
+  margin-bottom:18rpx ;
+  font-family: PingFangSC-Light;
+  font-size: 30rpx;
+  letter-spacing:1rpx;
+}
+.line{
+  width: 100%;
+  height: 6rpx;
+  background: #E1E1E1;
+}
+.common-left{
+  display: inline-block;
+  width:160rpx;
+  color: #C2C2C2;
+}
+.common-right{
+  color: #000F1C;
+}
+
+.button-view{
+  padding-left:30rpx;
+  padding-right:30rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-top:202rpx;
+}
+.button-view image{
+  width: 22rpx;
+  height: 28rpx;
+  margin-left: 20rpx;
+}
+.button-view .common-button{
+  width: 320rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  text-align: center;
+  border: 1px solid #349BFF;
+  border-radius: 100px;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  letter-spacing: -0.64rpx;  
+}
+.first{
+   background: #FFFFFF;
+   color: #349BFF;
+}
+.second{
+  background: #349BFF;
+  color: #fff;
+}
+
+
+

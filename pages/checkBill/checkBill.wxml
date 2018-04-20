@@ -1,0 +1,74 @@
+<!--pages/checkBill/checkBill.wxml-->
+
+<view>
+  <image src="../../img/Rectangle.png" class='bg-img'></image>
+  <view class="bg-mark">
+    <view class="check-bill-Title">
+      <icon class="iconfont icon-coupons_fill" style="color:red"></icon>
+      <text>增值税普通发票</text>
+    </view>
+
+    <view class="common">
+      <text class='common-left'>付款方</text>
+      <text class='common-right'>武雅丽</text>
+    </view>
+    <view class="common">
+      <text class='common-left'>收款方</text>
+      <text class='common-right'>朝阳励步教育有限公司</text>
+    </view>
+    <view class="common line">
+    </view>
+    <view class="common">
+      <text class='common-left'>发票金额</text>
+      <text class='common-right'>￥25572.00</text>
+    </view>
+    <view class="common">
+      <text class='common-left'>开票时间</text>
+      <text class='common-right'>2018-01-01 12：00</text>
+    </view>
+    <view class="common">
+      <text class='common-left'>项目</text>
+      <text class='common-right'>培训教育</text>
+    </view>
+
+  </view>
+  <view class='button-view'>
+    <view class="common-button first">
+      <text>下载发票PDF</text>
+      <image src="../../img/downLoad.png"></image>
+    </view>
+    <view class="common-button second" bindtap="showDialogBtn">
+      <text>发送到邮箱</text>
+      <image src="../../img/fei.png"></image>
+    </view>
+  </view>
+
+
+  <!--弹窗-->
+
+  <view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+
+  <view class="modal-dialog" wx:if="{{showModal}}">
+
+    <view class="modal-title">填写邮箱</view>
+
+    <view class="modal-content">
+
+      <view class="modal-input">
+
+        <input placeholder-class="input-holder" type="number" maxlength="10" bindinput="inputChange" class="input" placeholder="请输入邮箱地址"></input>
+
+      </view>
+
+    </view>
+
+    <view class="modal-footer">
+
+      <view class="btn-cancel" bindtap="onCancel" data-status="cancel">取消</view>
+
+      <view class="btn-confirm" bindtap="onConfirm" data-status="confirm">确认发送</view>
+
+    </view>
+
+  </view>
+</view>

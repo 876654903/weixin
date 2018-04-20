@@ -1,0 +1,29 @@
+<!--pages/login/login.wxml-->
+<view>
+  <view class="login-box">
+       <image src="../../img/logo.png"></image> 
+       <view class="form-box">
+          <view class="inp" >
+                 <icon class="iconfont icon-shumashouji" ></icon>
+                 <input placeholder="请输入手机号" class="tel"     placeholder-class="inp-placeholder" bindinput="bindKeyInput"></input>
+                <view wx:if="{{telCondition}}" class="tip tel-tip">{{telConditionText}} </view>
+          </view>
+         
+           <view class="inp" >
+                 <icon class="iconfont icon-shaixuan1"></icon>
+                  <input placeholder="请输入验证码" class="test" placeholder-class="inp-placeholder"></input>
+                  <text>获取验证码</text>
+          </view>
+
+          <view>
+               <button hover-class='none' bindtap="loginIn">立即登录</button>
+          </view>
+          <view class="default-yes">
+              <text>点击登录代表已经同意</text> <text class="xieyi">《励步服务中心》</text>
+          </view>
+       </view>
+
+  </view>
+</view>
+
+
