@@ -1,0 +1,73 @@
+/* pages/login/login.wxss */
+page{
+  width:100%;
+  height:100%;
+  background-image: linear-gradient(-40deg, #64CBFF 4%, #349BFF 83%);
+}
+.login-box{
+  width:690rpx;
+  height:760rpx;
+  margin:42rpx 30rpx 0 30rpx;
+  background: #fff;
+  box-shadow: 0 8px 10px 2px rgba(17,161,255,0.50);
+  border-radius: 10px;
+}
+.section__title{
+  padding:76rpx 184rpx;
+}
+
+.sections{
+  margin-left:66rpx;
+}
+.sections .item{
+  display: flex;
+  width: 526rpx;
+  height:32rpx;
+  border: 1px solid #E1E1E1;
+  border-radius: 100px;
+  margin-bottom:40rpx;
+  padding:16rpx;
+  padding-left: 40rpx;
+   font-size: 14px;
+   font-family: PingFangSC-Light;
+  color: #C2C2C2;
+  letter-spacing: -0.3px;
+  
+}
+
+.sections .item input{
+  
+  margin-left:24rpx;
+  margin-top:-9rpx;
+}
+.sections .item .yzm{
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  color: #349BFF;
+  letter-spacing: -0.3px;
+  text-align: center;
+}
+.btn-area{
+  width:558rpx;
+  height:64rpx;
+  border-radius: 100px;
+  margin-left:66rpx;
+  margin-top:88rpx;
+}
+.btn-area button{
+    background: #349BFF;
+    color: #fff;
+    font-size: 14px;
+}
+.btn-area .bottom{
+  width:100%;
+  display: flex;
+  font-family: PingFangSC-Light;
+  font-size: 14px;
+  color: #C2C2C2;
+  letter-spacing: -0.34px;
+  margin-top:34rpx;
+}
+.btn-area .deal{
+  color: #6EB8FF;
+}

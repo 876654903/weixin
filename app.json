@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/ticket/ticket",
+    "pages/noContract/noContract",
+    "pages/tiket-Success/tiket-Success"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#349BFF",
+    "navigationBarTitleText": "励步服务中心",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color":"#000",
+    "selectedColor":"#fff",
+    "backgroundColor": "#ccc",
+    "list": [
+      {
+        "pagePath":"pages/index/index",
+        "text":"主页",
+        "iconPath":"./img/hometown.jpg",
+        "selectedIconPath":"./img/hometown1.jpg"
+      },
+      {
+        "pagePath": "pages/tiket-Success/tiket-Success",
+        "text": "服务",
+        "iconPath": "./img/hometown1.jpg",
+        "selectedIconPath": "./img/hometown.jpg"
+      },
+      {
+        "pagePath": "pages/noContract/noContract",
+        "text": "我的",
+        "iconPath": "./img/hometown2.jpg",
+        "selectedIconPath": "./img/hometown1.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="container-top">
+     <image src="../../img/bg.jpg" class="big-image"></image>
+      <view class="container-banner">
+        <!-- <image src="../../img/banner.png" class="banner-img"></image> -->
+        <swiper indicator-dots="{{indicatorDots}}"
+          autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+          <block wx:for="{{imgUrls}}">
+            <swiper-item>
+              <image src="{{item}}" class="slide-image"/>
+            </swiper-item>
+          </block>
+        </swiper>
+     
+     </view> 
+     
+  </view>
+  <view class="container-content">
+      <view class="content-title">
+          <image src="../../img/服务.png" class="tit-img"></image>
+          <view class="service">常用服务</view>
+      </view>
+      <view class="content-list">
+          <view class="dl shop">
+              <icon class="iconfont icon-shangdian"></icon>
+              <text>励步商店</text>
+          </view>
+          <view class="dl tiket">
+              <icon class="iconfont icon-fapiao"></icon>
+              <text>电子发票</text>
+          </view>
+          <view class="dl">
+              <icon class="iconfont icon-shangdian"></icon>
+              <text>GESE证书查询</text>
+          </view>
+          <view class="dl">
+              <icon class="iconfont icon-fapiao"></icon>
+              <text>教室直播</text>
+          </view>
+          <view class="dl">
+              <icon class="iconfont icon-shangdian"></icon>
+              <text>自助转校</text>
+          </view>
+          <view class="dl">
+              <icon class="iconfont icon-fapiao"></icon>
+              <text>自助退费</text>
+          </view>
+          <view class="dl">
+              <icon class="iconfont icon-shangdian"></icon>
+              <text>合同查询</text>
+          </view>
+          <view class="dl">
+              <icon class="iconfont icon-fapiao"></icon>
+              <text>更多应用</text>
+          </view>   
+          
+      </view>
+  </view>
+</view>

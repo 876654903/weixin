@@ -1,0 +1,33 @@
+<!--pages/login/login.wxml-->
+<!--必须加view标签包住,不然宽高样式加不上-->
+<view class="login-box">
+    <form bindsubmit="formSubmit" bindreset="formReset" >
+      <view class="section section_gap">
+        <view class="section__title">
+          <image src="../../img/logo.png" style="width:322rpx;height:114rpx;"></image>
+        </view>
+        
+      </view>
+      <view class="content">
+            <view class="sections">
+              <view class="item">
+                  <image src="../../img/phone.png" style="width:24rpx;height:34rpx;"></image>
+                  <input name="phone" placeholder='请输入手机号'></input>
+              </view>
+              <view class="item">
+                  <image src="../../img/yzm.png" style="width:28rpx;height:34rpx;"></image>
+                  <input name="security" placeholder='请输入验证码'></input>
+                  <view class="yzm">获取验证码</view>
+              </view>
+            </view>
+            <view class="btn-area">
+               <button formType="submit" bindtap="toLogin">立即登录</button>
+               <view class="bottom">
+                  <view>点击登录即代表已同意</view>
+                  <view class="deal">《励步服务中心协议》</view>
+               </view>
+            </view>
+       </view>
+     
+    </form>
+</view>

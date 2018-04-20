@@ -1,0 +1,8 @@
+<!--pages/noContract/noContract.wxml-->
+<!--  -->
+<view class="no-Contract">
+    <view class="info">
+        <image src="../../img/no.png"></image>
+        <text class="see-contract">暂未查询到合同信息</text>
+    </view>
+</view>

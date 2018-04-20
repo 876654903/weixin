@@ -1,0 +1,24 @@
+<!--pages/tiket-Success/tiket-Success.wxml-->
+<view class="tiket-success">
+
+</view>
+<view class="container">
+  <view class="container-top">
+     <image src="../../img/bg.jpg" class="big-image"></image>
+  </view>
+  <view class="container-content">
+      <view class="content-list">
+          <view class="group">
+              <block>
+                <icon type="success" size="50" color=" #7ED321"/>
+              </block>
+              <view class="tit">开票成功</view>
+              <text class="send-wx">电子发票已发送至您的微信</text>
+          </view>
+          <view class="tiket-bottom">
+              <text class="go-forward">前往【我】-【卡包】-【我的票券】中查看</text>
+              <button bindtap="setLoading" class="returnContract">返回我的合同</button>
+          </view>
+      </view>
+  </view>
+</view>

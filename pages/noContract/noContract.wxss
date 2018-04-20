@@ -1,0 +1,22 @@
+/* pages/noContract/noContract.wxss */
+.no-Contract{
+  width:100%;
+  height:100%;
+  text-align: center;
+}
+.info image{
+  width:216rpx;
+  height:170rpx;
+  display: block;
+  text-align: center;
+  margin: 358rpx 266rpx 0 268rpx;
+}
+.info .see-contract{
+  display: block;
+  margin-top:40rpx;
+  font-family: PingFangSC-Light;
+  font-size: 18px;
+  color: #C2C2C2;
+  letter-spacing: -0.43px;
+  text-align: center;
+}
