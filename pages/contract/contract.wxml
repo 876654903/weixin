@@ -1,0 +1,112 @@
+<!--pages/contract/contract.wxml-->
+<view class="contract">  
+
+  <view class="head-h">
+    <text>合同明细</text>
+  </view>
+
+  <view class="list">
+    <view class="stage">
+        <view class="stage_1">
+            <span>Stage 1</span>
+            <view>
+              <text class="hour">+128课时</text>
+              <text>￥15880.00</text>
+            </view>
+        </view>
+
+        <view class="stage_1">
+            <span>学杂费</span>
+            <view>
+              <text class="hour">+1</text>
+              <text>￥600.00</text>
+            </view>
+        </view>
+    </view>
+    
+    <view class="discounts">
+      <view>
+            <block wx:for="{{iconColor}}">
+              <icon type="success" size="20" color="{{item}}"/>
+            </block>
+
+        多年报优惠
+      </view>
+      <text>-￥2694.00</text>
+    </view>
+
+
+  </view>
+
+  <view class="list">
+    <view class="stage">
+        <view class="stage_1">
+            <span>Stage 1</span>
+            <view>
+              <text class="hour">+128课时</text>
+              <text>￥15880.00</text>
+            </view>
+        </view>
+
+        <view class="stage_1">
+            <span>学杂费</span>
+            <view>
+              <text class="hour">+1</text>
+              <text>￥600.00</text>
+            </view>
+        </view>
+    </view>
+    
+    <view class="discounts">
+      <view>
+            <block wx:for="{{iconColor}}">
+              <icon type="success" size="20" color="{{item}}"/>
+            </block>
+
+        多年报优惠
+      </view>
+      <text>-￥2694.00</text>
+    </view>
+
+
+  </view>
+
+  <view class="aggregate">
+    <view class="aggregate_1">
+        <view>总计:￥31760.00</view>
+        <view>优惠:￥5380000008.00</view>
+    </view>
+
+    <view class="aggregate_2">
+      实付:<span>￥27572.00</span>
+    </view> 
+    
+  </view>
+
+  <view class="head-h">
+    <text>合同信息</text>
+  </view>
+
+  <view class="message">
+      <view class="message_1">
+          <view>合同编号：  <span>2125699</span></view>
+          <view>复制编号</view>
+      </view>
+      <view>
+          <view>学员姓名：  <span>张静涵</span></view>
+      </view>
+      <view>
+          <view>教学中心：  <span>北京西坝河</span></view>
+      </view>
+      <view>
+          <view>签订时间：  <span>2017-01-01  18:00:08</span></view>
+      </view>
+  </view>
+  
+
+</view>
+
+<view class="footer">
+  <view>下载合同PDF</view>
+  <view>申请发票</view>
+</view>

@@ -1,0 +1,145 @@
+/* pages/contract/contract.wxss */
+
+page{
+  display: flex;
+  flex-direction: column;
+}
+.contract,page{
+  width:100%;
+  height:100%;
+  background:#F9F8FE;
+}
+.contract{
+  overflow-y: scroll;
+}
+
+.footer{
+  width:100%;
+  height:90rpx;
+  font-size:35rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer view{
+  flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer view:first-child{
+  background: #fff;
+  color:#349BFF;
+}
+.footer view:last-child{
+  background: #349BFF;
+  color:#fff;
+}
+
+
+view {
+  box-sizing: border-box;
+}
+
+.head-h,.list,.aggregate{
+   padding:0 6%; 
+}
+
+
+.head-h{
+  height:80rpx;
+  line-height: 80rpx;
+  font-size:35rpx;
+}
+
+.list{
+  height:auto;
+  width:100%;
+  background: #fff;
+  font-size:30rpx;
+  margin-bottom:20rpx;
+  padding:0 6%;
+}
+.stage{
+  height: auto;
+  border-bottom:4rpx solid #E1E1E1;
+  padding:25rpx 0;
+  box-sizing:border-box;
+}
+.stage_1{
+   display: flex;
+   justify-content: space-between;
+   margin:10rpx 0;
+}
+
+.stage_1 view{
+  display: flex;
+  justify-content: space-between;
+  width:50%;
+}
+.stage_1 view text,.hour{
+  flex:1;
+  text-align: right;
+}
+.hour{
+  font-size:28rpx;
+  color:#C2C2C2;
+  box-sizing: border-box;
+}
+
+.discounts{
+  display: flex;
+  justify-content: space-between;
+  height:90rpx;
+  align-items:center;
+}
+.discounts text:last-child{
+  color: #FE6464;
+}
+.discounts view{
+  display: flex;
+  align-items: center;
+}
+.aggregate{
+  display: flex;
+  align-items: center;
+  background: #fff;
+  font-size:30rpx;
+  padding:30rpx 6%;
+}
+
+.aggregate_2{
+     flex:1; 
+}
+
+.aggregate_1{
+  text-align: left;
+}
+.aggregate_2{
+  text-align: right;
+}
+.aggregate_2 span{
+  font-size:45rpx;
+  color:#FE6464;
+  font-weight:600;
+}
+
+.message{
+  background: #fff;
+  height:auto;
+  padding:30rpx 6%;
+  font-size:30rpx;
+}
+
+.message_1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.message_1 view {
+  margin: 2rpx 0;
+}
+.message_1 view:last-child{
+  color:#529AFD;
+}
+

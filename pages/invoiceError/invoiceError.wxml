@@ -1,0 +1,16 @@
+<!--pages/invoiceError/invoiceError.wxml-->
+<view class="invoiceError">
+    
+    <image src="../../img/imgss.png" class="imgss"></image>
+
+    <view class="invoiceError_div">
+
+        <image src="../../img/Error.jpg" class="Error"></image>
+
+        <view class="btn">
+          返回我的合同
+        </view>
+    </view>
+
+
+</view>

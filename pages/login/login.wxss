@@ -1,0 +1,93 @@
+/* pages/login/login.wxss */
+
+page {
+  width:100%;
+  height:100%;
+  background-image: linear-gradient(-40deg, #64CBFF 4%, #349BFF 83%);
+  padding:0 5%;
+  box-sizing: border-box;
+}
+
+.login{
+  width:100%;
+  float:left;
+  margin:50rpx auto; 
+  padding:0 5% 104rpx 5%; 
+  box-sizing: border-box;
+  background: #FFFFFF;
+  box-shadow: 0 8px 10px 2px rgba(17,161,255,0.50);
+  border-radius: 10rpx;
+  height:auto;  
+}
+
+.login form{
+  width:100%;
+  height:auto; 
+}
+
+.login .section{
+  border: 1px solid #E1E1E1;
+  border-radius: 100px;
+  margin-bottom:50rpx;
+  height:64rpx;
+  display: flex;
+  align-items: center;
+}
+
+.section image{
+  width:24rpx;
+  height:34rpx;
+  margin:0 16rpx 0 40rpx;
+}
+
+
+.login input {
+  height:100%;
+  font-size:30rpx;
+  
+}
+
+.placeholderI { 
+  color:#C2C2C2;
+} 
+
+.login .banner {
+  width:322rpx;
+  height:114rpx;
+  display: block;
+  margin:76rpx auto;
+}
+
+.proving{
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  color: #349BFF;
+  letter-spacing: -0.3px;
+  text-align: center;
+  width:30%;
+}
+.sectionNu,.sectionNu span{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-area1,.btn-area1 button{
+  background: #349BFF;
+  border-radius: 100px;
+  width:100%;
+  height:64rpx;
+  color:#fff;
+  line-height:64rpx;
+  font-size:30rpx;
+}
+
+.serve{
+  font-size:30rpx;
+  color: #C2C2C2;
+  margin-top:14rpx;
+}
+
+.serve span {
+  color: #349BFF
+}
